@@ -88,6 +88,8 @@ if (candidato_X > candidato_Y && candidato_X > candidato_Z) {
   alert(`O vencedor da eleição foi o candidato_Y!!`);
 } else if (candidato_Z > candidato_X && candidato_Z > candidato_Y) {
   alert(`O vencedor da eleição foi o candidato_Z`);
+} else {
+  alert(`O resultado da eleição foi empate.`)
 }
 
 alert(`Finalizando votação, o placar da votação foi:
